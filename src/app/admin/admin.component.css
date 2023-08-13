@@ -1,0 +1,35 @@
+.admin-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .admin-container h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .admin-container .features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .admin-container .feature {
+    flex: 1;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .admin-container .feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .admin-container .feature p {
+    font-size: 16px;
+  }
+  

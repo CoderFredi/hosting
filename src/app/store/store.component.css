@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .title {
+    font-size: 3rem;
+    color: #000000;
+    animation: fade-in 2s ease-in-out infinite alternate;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: #000000;
+    animation: slide-in 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  

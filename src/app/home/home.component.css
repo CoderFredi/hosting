@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image {
+  margin-left: 25%;
+  margin-bottom: 15%;
+  width: 450px;
+}
+
+.content img {
+  width: 300px;
+  margin-bottom: 30%;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.bt button {
+  margin-top: 50px;
+  margin-right: 250px;
+}
+
+.t {
+  background-color: blueviolet;
+  text-align: center;
+  color: white;
+}
+
+.about h2 {
+  font-size: 400%;
+  margin-bottom: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.bt h1 {
+  font-style: normal;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
+  font-size: 3.25rem;
+  line-height: 2.5rem;
+  letter-spacing: -.025em;
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+  /* or 110% */
+
+  color: #000000;
+
+
+}
+
+.bt span {
+  color: blue;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

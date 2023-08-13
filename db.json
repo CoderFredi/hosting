@@ -1,0 +1,12 @@
+{
+  "seller": [
+    {
+      "username": "Admin",
+      "password": "123",
+      "email": "admin@test.com",
+      "number": "90990090909",
+      "date": "1999-09-09",
+      "id": 1
+    }
+  ]
+}
